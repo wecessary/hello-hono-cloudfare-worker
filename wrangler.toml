@@ -1,6 +1,9 @@
 name = "hello-hono-cloudfare-worker"
 compatibility_date = "2023-12-01"
 
+[site]
+bucket = "./assets" # Add the directory with your static assets!
+
 # [vars]
 # MY_VARIABLE = "production_value"
 
